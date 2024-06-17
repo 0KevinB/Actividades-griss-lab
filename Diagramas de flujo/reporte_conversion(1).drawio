@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2024-05-30T17:14:42.693Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="pDVcH4l_0j0Osx7TIW8o" version="24.4.10" type="device">
+  <diagram name="Página-1" id="2jfkGk-Gd7H7DLe_FTOv">
+    <mxGraphModel dx="1477" dy="1548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-1" target="Jsvowq7ouRM32jwP5IFK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-1" value="Inicio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-2" target="Jsvowq7ouRM32jwP5IFK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-2" target="Jsvowq7ouRM32jwP5IFK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-2" value="reporte_conversion" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-4" value="&lt;div&gt;IN:&lt;br&gt;&lt;/div&gt;&lt;div&gt;data_transformada_: Los datos del acelerograma transformados.&lt;/div&gt;dir_salida_: El directorio donde se guardará el archivo de salida.&lt;br&gt;evento_: Un identificador para el evento sísmico.&lt;br&gt;fecha_evento_: La fecha del evento en formato &#39;aammdd&#39;.&lt;br&gt;hora_evento_: La hora del evento en formato &#39;hhmmss&#39;.&lt;br&gt;nombre_est_: El nombre de la estación de monitoreo.&lt;br&gt;componente_: El componente del acelerograma (eje X, Y o Z).&lt;br&gt;frecuencia_: La frecuencia de muestreo.&lt;br&gt;unidades_: Las unidades de los datos de aceleración." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-340" width="370" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-6" target="Jsvowq7ouRM32jwP5IFK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-6" value="Se construye el nombre del archivo de salida combinando el nombre de la estación, el evento, el componente y la frecuencia." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="-150" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-8" target="Jsvowq7ouRM32jwP5IFK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-8" value="¿Existe el directorio establecido?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-10" target="Jsvowq7ouRM32jwP5IFK-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-10" value="Crear directorio con mkdir" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-12" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-13" target="Jsvowq7ouRM32jwP5IFK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-13" target="Jsvowq7ouRM32jwP5IFK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-13" value="Abrir un nuevo archivo de texto para escritura en el directorio de salida especificado." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="280" width="160" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-15" value="fid=fopen([dir_salida &#39;\&#39; nombre_archivo],&#39;wt&#39;); " style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="288" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-17" target="Jsvowq7ouRM32jwP5IFK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-17" target="Jsvowq7ouRM32jwP5IFK-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-17" value="Asignar los datos al reporte" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-19" target="Jsvowq7ouRM32jwP5IFK-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-19" value="&lt;p&gt;Registro de aceleraciones Red-UTPL&lt;br&gt;Observatorio Sísmico UTPL (OSSE)&lt;br&gt;Grupo de Investigación en Ingeniería Sísmica y Sismología (GRISS-UTPL)&lt;/p&gt;&lt;p&gt;Evento: [Nombre del evento]&lt;br&gt;Fecha del evento UTM (aammdd): [Fecha del evento]&lt;br&gt;Hora del registro UTM (hhmmss): [Hora del evento]&lt;/p&gt;&lt;p&gt;Estación: [Nombre de la estación]&lt;br&gt;Componente: [Componente]&lt;br&gt;Frecuencia de muestreo (Hz): [Frecuencia de muestreo]&lt;br&gt;Unidades: [Unidades]&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="390" width="330" height="206" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-21" value="Se incluye información sobre la red de monitoreo, el evento, la estación, la frecuencia de muestreo y las unidades." style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="510" width="155" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-23" target="Jsvowq7ouRM32jwP5IFK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-23" target="Jsvowq7ouRM32jwP5IFK-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-23" value="Escribir los datos del acelerograma transformados en el archivo de texto, usando un formato numérico con siete dígitos decimale" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="613" width="140" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-25" value="fprintf(fid,&#39;%.7f %.7f %.7f %.7f %.7f %.7f\n&#39;,data_transformada);" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="650" width="160" height="51.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-27" target="Jsvowq7ouRM32jwP5IFK-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-27" value="Cerrar el archivo de texto después de escribir todos los datos." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jsvowq7ouRM32jwP5IFK-29" target="Jsvowq7ouRM32jwP5IFK-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-29" value="Fin" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsvowq7ouRM32jwP5IFK-31" value="&lt;div&gt;OUT:&lt;/div&gt;&lt;div&gt;Archivo con los valores previamente descritos&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

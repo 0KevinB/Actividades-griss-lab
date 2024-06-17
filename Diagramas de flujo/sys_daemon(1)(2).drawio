@@ -1,0 +1,388 @@
+<mxfile host="app.diagrams.net" modified="2024-05-29T12:32:12.487Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="w0uk7nNLZ6dVyoPSrrrb" version="24.4.7" type="device">
+  <diagram name="Página-1" id="wI8wcHKo4h2ZQnZn5jPz">
+    <mxGraphModel dx="1705" dy="2163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qeNZniRE47iHzcxFyu2g-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qeNZniRE47iHzcxFyu2g-1" target="qeNZniRE47iHzcxFyu2g-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qeNZniRE47iHzcxFyu2g-1" value="Inicio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="-590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qeNZniRE47iHzcxFyu2g-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qeNZniRE47iHzcxFyu2g-2" target="qeNZniRE47iHzcxFyu2g-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qeNZniRE47iHzcxFyu2g-2" value="&lt;div&gt;Importación de modulos y librerias&amp;nbsp;&lt;/div&gt;&lt;div&gt;(os, time, syscom_uncompress, obspy_mseed, analisis_path, obspy)&lt;br&gt; &lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1385" y="-480" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qeNZniRE47iHzcxFyu2g-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qeNZniRE47iHzcxFyu2g-4" target="qeNZniRE47iHzcxFyu2g-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qeNZniRE47iHzcxFyu2g-4" value="Definir rutas para: &lt;br&gt;dir_archivos, dir_miniseed, dir_scan, dir_log, path_log, log_sys" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1405" y="-360" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qeNZniRE47iHzcxFyu2g-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qeNZniRE47iHzcxFyu2g-6" target="qeNZniRE47iHzcxFyu2g-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qeNZniRE47iHzcxFyu2g-6" value="Definir un tiempo de espera entre lecturas, en este caso 10s" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="-240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qeNZniRE47iHzcxFyu2g-8" target="cq1wy7gr22w16KJ_TDuf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qeNZniRE47iHzcxFyu2g-8" value="Creación de lista para almacenar nombres de archivos procesados" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-1" target="cq1wy7gr22w16KJ_TDuf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-1" target="cq1wy7gr22w16KJ_TDuf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-1" value="Proceso de lectura de archivos procesados" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-5" value="Para cada linea de los archivos procesados remplazar el salto de linea por espacios en blanco" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="-35" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-7" target="cq1wy7gr22w16KJ_TDuf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-7" value="Creación de la variable tiempos de apertura con valor inicial de 1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-9" target="cq1wy7gr22w16KJ_TDuf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-9" target="cq1wy7gr22w16KJ_TDuf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-9" value="Inicializacion de starttime en una variable control_time" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-11" value="Para control de overlap de los datos" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-13" target="cq1wy7gr22w16KJ_TDuf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-13" target="cq1wy7gr22w16KJ_TDuf-125">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1930" y="340" />
+              <mxPoint x="1930" y="3270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-13" value="Bucle infinito" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-15" target="cq1wy7gr22w16KJ_TDuf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-15" target="cq1wy7gr22w16KJ_TDuf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-15" value="Analisis del directorio " style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-17" target="cq1wy7gr22w16KJ_TDuf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-17" value="Para cada archivo binario en la lista de archivos" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-19" value="Se necesita de la función analizar_directorio del modulo analisis_path&amp;nbsp; " style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-23" target="cq1wy7gr22w16KJ_TDuf-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-23" value="¿Se encuentra el archivo binario en la lista de archivos procesados?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="680" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-28" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-29" target="cq1wy7gr22w16KJ_TDuf-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-29" target="cq1wy7gr22w16KJ_TDuf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-29" value="Abrir el archivo binario" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-31" target="cq1wy7gr22w16KJ_TDuf-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-31" value="&lt;div&gt;Almacenar los datos en una variable&lt;/div&gt;&lt;div&gt;data&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-33" target="cq1wy7gr22w16KJ_TDuf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-33" value="Escribir un log con el error" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-35" value="Exito" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-36" value="Excepción " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-37" value="Continuar con la siguiente iteración " style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-39" target="cq1wy7gr22w16KJ_TDuf-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-39" target="cq1wy7gr22w16KJ_TDuf-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-39" value="Enviar la data obtenida para convertir a binario" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-41" target="cq1wy7gr22w16KJ_TDuf-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-41" target="cq1wy7gr22w16KJ_TDuf-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-41" value="Decodificar datos para obtener los bloques y componentes" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-43" target="cq1wy7gr22w16KJ_TDuf-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-43" value="Se necesita de la función convertir_a_binario del modulo syscom_uncompress" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1025" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-47" target="cq1wy7gr22w16KJ_TDuf-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-47" value="Se necesita de la función decodificar_datos del modulo syscom_uncompress" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1135" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-50" target="cq1wy7gr22w16KJ_TDuf-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-50" target="cq1wy7gr22w16KJ_TDuf-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-50" value="Crear stream desde la data y almacenar en variables" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="1250" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-54" target="cq1wy7gr22w16KJ_TDuf-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-54" value="Escribir un log indicando un error en el bloque de obspy" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-56" value="Exito" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-57" value="Excepción " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="1320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-61" target="cq1wy7gr22w16KJ_TDuf-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-61" target="cq1wy7gr22w16KJ_TDuf-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="1490" />
+              <mxPoint x="1365" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-61" value="last_time &amp;gt; control_time" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-63" value="Se obtiene en una variable bindata" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-65" value="&lt;div&gt;Se obtienen las siguientes variables: &lt;br&gt;&lt;/div&gt;&lt;div&gt;componentes_x, componentes_y, componentes_z, headers, bloque_completo&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="825" y="1120" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-67" target="cq1wy7gr22w16KJ_TDuf-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-67" value="control_time toma el valor de last_time" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-69" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-70" target="cq1wy7gr22w16KJ_TDuf-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-70" value="bloque_completo = Falso" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-72" target="cq1wy7gr22w16KJ_TDuf-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-72" value="Inicio del proceso de evaluación" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-75" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-77" target="cq1wy7gr22w16KJ_TDuf-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-77" target="cq1wy7gr22w16KJ_TDuf-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-77" value="Si bloque_completo = true" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1307.5" y="1700" width="115" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-79" target="cq1wy7gr22w16KJ_TDuf-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-79" value="Agregamos a la lista de archivos procesados el archivo binario" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-81" target="cq1wy7gr22w16KJ_TDuf-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-81" value="Se escribe un log de control indicando el archivo el cual no se ha procesado correctamente y el numero de apertura" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1840" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-83" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-84" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-85" target="cq1wy7gr22w16KJ_TDuf-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-85" value="Se escribe un log del archivo el cual se ha procesado" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-87" target="cq1wy7gr22w16KJ_TDuf-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1345" y="2338.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-87" value="Se indica el numero de aperturas y se le da un valor de uno" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-89" target="cq1wy7gr22w16KJ_TDuf-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-89" target="cq1wy7gr22w16KJ_TDuf-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1483" y="2015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-89" value="Numero de aperturas &amp;gt;= 65" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1535" y="1980" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-91" value="numero de aperturas +1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-93" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="2050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-95" target="cq1wy7gr22w16KJ_TDuf-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-95" value="Agregamos el archivo a la lista de archivos procesados" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1423" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-97" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="2050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-98" target="cq1wy7gr22w16KJ_TDuf-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1345" y="2338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-98" value="Escribimos el log del archivo procesado e indicamos un valor de uno para el numero de aperturas" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1414.25" y="2200" width="137.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-103" target="cq1wy7gr22w16KJ_TDuf-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-103" value="Proceso para escribir el archivo main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-104" target="cq1wy7gr22w16KJ_TDuf-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="2630" />
+              <mxPoint x="1360" y="2630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-104" target="cq1wy7gr22w16KJ_TDuf-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-104" value="Write enable" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="2480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-106" target="cq1wy7gr22w16KJ_TDuf-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-106" target="cq1wy7gr22w16KJ_TDuf-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-106" value="Creamos el directorio temporal para almacenar los datos" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="2630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-110" value="si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="2590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-113" value="write_enable es una variable booleana obtenida al momento de llamar a la funcion create_stream_from_data" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="2480" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-115" value="= f&quot;{dir_miniseed}/{stats[&#39;network&#39;]}.{stats[&#39;station&#39;]}.HN&quot;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="2630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-117" value="Creación del componente E" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="2740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.446;exitY=0.97;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="cq1wy7gr22w16KJ_TDuf-120" source="cq1wy7gr22w16KJ_TDuf-117">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="2800" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-120" value="Creación del componente N" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1294.25" y="2850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="cq1wy7gr22w16KJ_TDuf-122" source="cq1wy7gr22w16KJ_TDuf-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1355" y="2910" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-122" target="cq1wy7gr22w16KJ_TDuf-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-122" value="Creación del componente Z" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="2960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cq1wy7gr22w16KJ_TDuf-123" target="cq1wy7gr22w16KJ_TDuf-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-123" value="Confirmación de la escritura del main file" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="3100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cq1wy7gr22w16KJ_TDuf-125" value="Tiempo de espera" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="3240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

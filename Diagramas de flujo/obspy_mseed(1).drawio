@@ -1,0 +1,408 @@
+<mxfile host="app.diagrams.net" modified="2024-05-23T17:34:34.895Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="oirJOb6jJBlcHe77pEaD" version="24.4.6" type="device">
+  <diagram name="Página-1" id="OCESt99P7ZU4rnC9enDc">
+    <mxGraphModel dx="4724" dy="2271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uBLrUGadxd64Qi-E-q06-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-1" target="uBLrUGadxd64Qi-E-q06-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-1" value="Inicio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-2" target="uBLrUGadxd64Qi-E-q06-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-2" target="uBLrUGadxd64Qi-E-q06-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-2" target="uBLrUGadxd64Qi-E-q06-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-2" value="Crear&amp;nbsp;función create_stream_from_data" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-4" value="&lt;div&gt;Se espera recibir los componentes de x,y,z, los encabezados, un archivo binario, el directorio donde se guardaran los archivo mseed, el tiempo de control y un tamaño de bloque, por defecto es 512&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-6" target="uBLrUGadxd64Qi-E-q06-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-6" value="Declaración de las variables stats y write_control_bool" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-8" target="uBLrUGadxd64Qi-E-q06-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-8" target="uBLrUGadxd64Qi-E-q06-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-8" value="Para cada indice de los encabezados" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-10" target="uBLrUGadxd64Qi-E-q06-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-10" target="uBLrUGadxd64Qi-E-q06-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-10" target="uBLrUGadxd64Qi-E-q06-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-10" value="Definir las variables de: dia, mes, anho, hora, minuto, segundondo" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-12" value="Las variables se obtienen de los encabezados, " style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-21" value="Las variables tienen una estructura similar a esta: &lt;br&gt;&lt;div&gt;dia = hex(int(headers[idx][8:16], 2))[2:].zfill(2)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;En cada variable se seleccionan los bits del encabezado actual en la posición de la izquierda (8) a la posición de la derecha menos 1 (15) el ,2 indica que se trabajara en base dos (binario). El método hex() convierte una expresión a numero hexadecimal y finalmente se rellena con ceros hasta tener al menos dos valores con el método .zfill&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="707" y="460" width="333" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-23" target="uBLrUGadxd64Qi-E-q06-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-23" target="uBLrUGadxd64Qi-E-q06-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-23" target="uBLrUGadxd64Qi-E-q06-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-23" value="¿El indice es igual a cero?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="329.5" y="720" width="141" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-25" target="uBLrUGadxd64Qi-E-q06-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-25" target="uBLrUGadxd64Qi-E-q06-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="1980.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-25" value="Definir la variable starttime" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-27" target="uBLrUGadxd64Qi-E-q06-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-27" value="Proceso para sobrescribir el código de estación " style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-29" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="269.5" y="740.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-30" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470.5" y="740.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-31" target="uBLrUGadxd64Qi-E-q06-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-31" target="uBLrUGadxd64Qi-E-q06-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-31" value="Convertir la hora en un objeto UTCDateTime" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-34" value="starttime = UTCDateTime(int(&#39;20&#39;+anho),int(mes),int(dia),int(hora),int(minuto),int(seg))" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="950" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-36" target="uBLrUGadxd64Qi-E-q06-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=-0.006;entryY=0.561;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-36" target="uBLrUGadxd64Qi-E-q06-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="960.0204081632651" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="930" y="975" />
+              <mxPoint x="930" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-36" target="uBLrUGadxd64Qi-E-q06-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-36" target="uBLrUGadxd64Qi-E-q06-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="975" />
+              <mxPoint x="930" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-36" target="uBLrUGadxd64Qi-E-q06-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-36" value="Definir las variables tmp_path, station_code, time_validation, val_hora" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="940" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-38" value="Objeto de la librería obspy" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="140" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-40" value="tmp_path = archivo_bin.rsplit(&#39;/&#39;): Divide el nombre del archivo archivo_bin en una lista usando &#39;/&#39; como separador, obteniendo los componentes del path." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="850" width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-44" value="station_code = tmp_path[5]: Asigna a station_code el sexto componente de tmp_path, que se asume es el código de la estación." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="990" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-46" value="time_validation = tmp_path[-1]: Asigna a time_validation el último componente de tmp_path, que se asume es una cadena relacionada con la validación del tiempo." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="842.5" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-49" value="Identifica todos los bloques entrantes mediante los encabezados" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-51" target="uBLrUGadxd64Qi-E-q06-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-51" value="Importación de librerías obspy, numpy, os&amp;nbsp; " style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-54" value="IN: componentes_x, componentes_y, componentes_z, headers, archivo_bin, dir_miniseed, control_time,block_size = 512" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="570" y="205" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-56" value="val_hora = time_validation[:2]: Extrae los primeros dos caracteres de time_validation, que representan la hora en el archivo." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="990" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-60" target="uBLrUGadxd64Qi-E-q06-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-60" target="uBLrUGadxd64Qi-E-q06-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-60" target="uBLrUGadxd64Qi-E-q06-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-60" value="val_hora != hora" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1089" width="120" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-62" value="Se agrega validación del tiempo por fallo en la escritura de los archivos binarios desde syscom" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1091.75" width="160" height="85.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-66" target="uBLrUGadxd64Qi-E-q06-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-66" value="hora = val_hora" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-68" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-69" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545.5" y="1290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-70" target="uBLrUGadxd64Qi-E-q06-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-70" value="Imprimir el archivo con byte incorrecto" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-75" target="uBLrUGadxd64Qi-E-q06-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-75" target="uBLrUGadxd64Qi-E-q06-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-75" value="El tamaño de la lista de encabezados es igual a 1 " style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475.5" y="1600" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-78" target="uBLrUGadxd64Qi-E-q06-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-78" value="starttime = starttime + 1 " style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1720" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-80" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415.5" y="1660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-82" target="uBLrUGadxd64Qi-E-q06-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200.0526315789475" y="1980.0000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="1835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-82" value="Inicializar las variables de stream x,y,z" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-85" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-86" value="Para trabajar con el primer bloque" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="630" y="711" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-92" target="uBLrUGadxd64Qi-E-q06-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-92" target="uBLrUGadxd64Qi-E-q06-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-92" value="Definir la variable starttime" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-94" value="starttime = UTCDateTime(int(&#39;20&#39;+anho),int(mes),int(dia),int(hora),int(minuto),int(seg))" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1430" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-100" target="uBLrUGadxd64Qi-E-q06-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-100" target="uBLrUGadxd64Qi-E-q06-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-100" target="uBLrUGadxd64Qi-E-q06-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-100" value="Control_time &amp;gt;= starttime" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-102" value="Control time es una de las variables que se reciben en el método " style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.445;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-104" target="uBLrUGadxd64Qi-E-q06-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="2160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-104" value="&lt;div&gt;Continuar&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-106" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-107" target="uBLrUGadxd64Qi-E-q06-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-107" value="write_bool_control = True" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-109" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-110" target="uBLrUGadxd64Qi-E-q06-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-110" value="Crear trazas con datos y encabezados para cada componente" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-113" target="uBLrUGadxd64Qi-E-q06-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-113" target="uBLrUGadxd64Qi-E-q06-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-113" value="Dar valores a la variable stats" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-115" value="Stats es un diccionario que tiene datos para las trazas&lt;br&gt;stats = {&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &#39;network&#39;: &#39;LJ&#39;,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &#39;station&#39;: station_code,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &#39;location&#39;: &#39;&#39;,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &#39;mseed&#39;: {&#39;dataquality&#39;: &#39;D&#39;},&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; }" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2355" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-117" target="uBLrUGadxd64Qi-E-q06-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-117" target="uBLrUGadxd64Qi-E-q06-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-117" value="Creación de las variables data (x,y,z)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-119" target="uBLrUGadxd64Qi-E-q06-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-119" value="Se obtienen mediante los componentes recibidos por el metodo" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2530" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-121" target="uBLrUGadxd64Qi-E-q06-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-121" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; data_x = Trace(data=np.array(componentes_x[idx]).astype(np.int32), header=dict(stats, channel=&#39;HNE&#39;, npts=len(componentes_x[idx]), sampling_rate=100, starttime=starttime))" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="565" y="2500" width="495" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-123" target="uBLrUGadxd64Qi-E-q06-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-123" value="&lt;code&gt;header=dict(stats, channel=&#39;HNE&#39;, npts=len(componentes_x[idx]), sampling_rate=100, starttime=starttime)&lt;/code&gt;: Crea el encabezado de la traza, combinando el diccionario &lt;code&gt;stats&lt;/code&gt; con campos específicos para la traza:" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2760" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-127" target="uBLrUGadxd64Qi-E-q06-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-127" value="Trace es una clase de obspy que representa una única traza de datos con su encabezado." style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="672.5" y="2590" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-131" target="uBLrUGadxd64Qi-E-q06-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-131" value="Crear un objeto Stream que contiene las tres trazas" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-133" target="uBLrUGadxd64Qi-E-q06-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-133" target="uBLrUGadxd64Qi-E-q06-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-133" value="stream_data_x.extend(Stream(traces=[data_x]))&lt;br&gt;stream_data_y.extend(Stream(traces=[data_y]))&lt;br&gt;stream_data_z.extend(Stream(traces=[data_z]))" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2910" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-137" target="uBLrUGadxd64Qi-E-q06-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-137" value="write_bool_control = true" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="3030" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-139" target="uBLrUGadxd64Qi-E-q06-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-139" target="uBLrUGadxd64Qi-E-q06-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-139" value="Definimos la variable tmp_mseed" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239.5" y="3160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-141" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="299.5" y="3120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-142" value="&lt;div&gt;Directorio sobre el cual se escribirán los archivos mseed&lt;/div&gt;&lt;div&gt;dir_tmp_seed = f&quot;{dir_miniseed}/{stats[&#39;network&#39;]}.{stats[&#39;station&#39;]}.HN&quot;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="439.5" y="3160" width="300.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-144" target="uBLrUGadxd64Qi-E-q06-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-144" target="uBLrUGadxd64Qi-E-q06-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-144" value="Escritura del archivo mseed" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="3270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-146" value="&lt;code&gt;data=np.array(componentes_x[idx]).astype(np.int32)&lt;/code&gt;: Convierte los datos del componente actual a un array de numpy y los convierte a enteros de 32 bits." style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="593.75" y="2660" width="437.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.483;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-146" target="uBLrUGadxd64Qi-E-q06-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-149" value="Extiende los Stream correspondientes (stream_data_x, stream_data_y, stream_data_z) con las trazas recién creadas." style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-151" value="&lt;ul&gt;&lt;li&gt;&lt;code&gt;channel=&#39;HNE&#39;&lt;/code&gt;: Nombre del canal para el componente X.&lt;/li&gt;&lt;li&gt;&lt;code&gt;channel=&#39;HNN&#39;&lt;/code&gt;: Nombre del canal para el componente Y.&lt;/li&gt;&lt;li&gt;&lt;code&gt;channel=&#39;HNZ&#39;&lt;/code&gt;: Nombre del canal para el componente Z.&lt;/li&gt;&lt;li&gt;&lt;code&gt;npts=len(componentes_x[idx])&lt;/code&gt;: Número de puntos de datos en la traza.&lt;/li&gt;&lt;li&gt;&lt;code&gt;sampling_rate=100&lt;/code&gt;: Tasa de muestreo en Hz.&lt;/li&gt;&lt;li&gt;&lt;code&gt;starttime=starttime&lt;/code&gt;: Hora de inicio de la traza, previamente calculada.&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="2600" width="320" height="220" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;Para x resulta en un archivo con terminación E&lt;br&gt;&lt;/div&gt;&lt;div&gt;Para y resulta en un archivo con terminación N&lt;/div&gt;&lt;div&gt;Para z resulta en un archivo con terminación Z&lt;br&gt;&lt;/div&gt;&lt;div&gt;stream_data_x.write(f&#39;{dir_tmp_seed}E&#39;, format=&#39;MSEED&#39;, reclen=block_size)&lt;/div&gt;" id="uBLrUGadxd64Qi-E-q06-153">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+            <mxGeometry x="439.5" y="3255" width="300.5" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uBLrUGadxd64Qi-E-q06-155" target="uBLrUGadxd64Qi-E-q06-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-155" value="Retorna el write_control_bool, starttime, stats" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="239.5" y="3410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBLrUGadxd64Qi-E-q06-157" value="Fin" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="3520" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
